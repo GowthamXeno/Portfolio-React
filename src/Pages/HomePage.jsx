@@ -101,7 +101,7 @@ const HomePage = () => {
                   </p>
                 </Col>
                 <Col md={4} className="myAvtar">
-                  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+                  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={20}>
                     <img src={Gow} className="img-fluid" alt="avatar" />
                   </Tilt>
                 </Col>
