@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState ,useEffect}from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ParticleBackground from "../Components/ParticleBackground";
 import ProjectCard from "../Components/ProjectCard";
@@ -6,10 +6,35 @@ import Bookrecord from "../Assets/ProjectImages/BookrecordManagement.png";
 import Bookmyshow from "../Assets/ProjectImages/Bookmyshow.png";
 import portfolio from "../Assets/ProjectImages/Portfolio.png";
 import DefaultLayout from "../Layouts/DefaultLayout";
-
+import PreLoader from "../Components/PreLoader";
 function ProjectPage() {
+  const [Loading, UpdateLoad] = useState(true);
+
+    useEffect(() => {
+    const loadImages = async () => {
+      await Promise.all([
+        loadImg(Bookmyshow),
+        loadImg(Bookrecord),
+        loadImg(portfolio)
+      ]);
+      UpdateLoad(false);
+    };
+
+    loadImages();
+  }, []);
+  const loadImg = (src) => {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = resolve;
+      img.onerror = reject;
+    });
+  };
   return (
     <>
+      {Loading ? (
+        <PreLoader />
+      ) : (
       <Container fluid className="project-section">
         <ParticleBackground />
         <Container>
@@ -48,7 +73,7 @@ function ProjectPage() {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </Container>)}
     </>
   );
 }

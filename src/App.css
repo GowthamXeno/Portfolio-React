@@ -447,7 +447,7 @@ button:focus {
 }
 @media (max-width: 767px) {
   .home-img-comp {
-    padding-top: 230px !important;
+    padding-top: 120px !important;
   }
   .home-about-section {
     padding-bottom: 20px !important;

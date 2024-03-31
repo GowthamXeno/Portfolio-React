@@ -42,14 +42,14 @@ function ResumeNew() {
             &nbsp;Download Résumé
           </Button>
         </Row>
-        
+
         {imageLoaded ? (
           <Row className="resume">
             <img src={resumeImg} alt="Resume" />
           </Row>
         ) : (
           <Row className="resume-load">
-            <p>Loading image...</p>
+            <p>Loading Résumé...</p>
           </Row>
         )}
 
