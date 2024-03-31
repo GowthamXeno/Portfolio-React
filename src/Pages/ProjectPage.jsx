@@ -43,7 +43,7 @@ function ProjectPage() {
                 title="React Portfolio"
                 description="Discover my React-powered Portfolio , a showcase of my skills and expertise. Explore an interactive platform highlighting my proficiency in web development, design, and more. Crafted with precision and creativity, this portfolio demonstrates my versatility and commitment to excellence."
                 ghLink="https://github.com/GowthamXeno/Portfolio-React"
-                demoLink="https://chatify-49.web.app/"
+                demoLink="https://portfolio-react-gow.vercel.app/"
               />
             </Col>
           </Row>
