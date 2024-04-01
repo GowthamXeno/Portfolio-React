@@ -22,7 +22,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiReact />
           <p>React</p>
@@ -33,7 +33,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiNodejs />
           <p>NodeJs</p>
@@ -44,7 +44,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiMongodb />
           <p>MongoDB</p>
@@ -55,7 +55,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiJavascript1 />
           <p>JavaScript</p>
@@ -66,7 +66,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <SiExpress />
           <p>ExpressJs</p>
@@ -77,7 +77,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiJava />
           <p>Java</p>
@@ -88,7 +88,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiGit />
           <p>Git</p>
@@ -99,7 +99,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiHtml5 />
           <p>Html</p>
@@ -110,7 +110,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <DiCss3 />
           <p>CSS</p>
@@ -121,7 +121,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <SiTailwindcss />
           <p>TailwindCSS</p>
@@ -132,7 +132,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <SiNpm />
           <p>Npm</p>
@@ -143,7 +143,7 @@ const Techstack = () => {
           className="tech-icons"
           data-aos="flip-up"
           data-aos-offset="80"
-          data-aos-duration="500"
+          data-aos-duration="600"
         >
           <SiBootstrap />
           <p>Bootstrap</p>

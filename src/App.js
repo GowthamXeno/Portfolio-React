@@ -16,7 +16,7 @@ function App() {
   const [Load, UpdateLoad] = useState(true);
   useEffect(() => {
     Aos.init({
-      // once: true,
+      once: true,
       // disable: "phone",
       duration: 700,
       easing: "ease-out-cubic",
