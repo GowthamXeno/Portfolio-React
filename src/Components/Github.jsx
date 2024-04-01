@@ -7,8 +7,17 @@ function Github() {
     dark: ["#ebebebca", "#41487b", "#54569d", "#6b68c0", "#847be4"],
   };
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+    <Row
+      style={{ justifyContent: "center", paddingBottom: "10px" }}
+      data-aos="fade-up"
+      data-aos-duration="400"
+    >
+      <h1
+        className="project-heading"
+        style={{ paddingBottom: "20px" }}
+        data-aos="zoom-out"
+        data-aos-duration="300"
+      >
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar

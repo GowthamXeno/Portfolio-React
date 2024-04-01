@@ -27,11 +27,19 @@ function ResumeNew() {
         <ParticleBackground />
 
         <Row>
-          <h1 className="resume-head">
+          <h1
+            className="resume-head"
+            data-aos="fade-down"
+            data-aos-duration="400"
+          >
             My <span className="purple">Résumé</span>
           </h1>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row
+          style={{ justifyContent: "center", position: "relative" }}
+          data-aos="fade-left"
+          data-aos-duration="400"
+        >
           <Button
             variant="primary"
             href={resume}
@@ -59,6 +67,8 @@ function ResumeNew() {
             href={resume}
             target="_blank"
             style={{ maxWidth: "250px" }}
+            data-aos="fade-left"
+            data-aos-duration="600"
           >
             <TbFileDownload />
             &nbsp;Download Résumé

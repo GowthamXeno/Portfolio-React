@@ -16,51 +16,135 @@ const Techstack = () => {
   return (
     <>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiReact />
           <p>React</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiNodejs />
           <p>NodeJs</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiMongodb />
           <p>MongoDB</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiJavascript1 />
           <p>JavaScript</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <SiExpress />
           <p>ExpressJs</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiJava />
           <p>Java</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiGit />
           <p>Git</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiHtml5 />
           <p>Html</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <DiCss3 />
           <p>CSS</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <SiTailwindcss />
           <p>TailwindCSS</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <SiNpm />
           <p>Npm</p>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="500"
+        >
           <SiBootstrap />
           <p>Bootstrap</p>
         </Col>

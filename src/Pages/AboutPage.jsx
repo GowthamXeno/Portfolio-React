@@ -39,6 +39,8 @@ function AboutPage() {
                 md={5}
                 style={{ paddingTop: "70px", paddingBottom: "100px" }}
                 className="about-img"
+                data-aos="fade-right"
+                data-aos-duration="400"
               >
                 <h1
                   className="About-Head-Small"
@@ -55,6 +57,8 @@ function AboutPage() {
                   paddingTop: "30px",
                   paddingBottom: "50px",
                 }}
+                data-aos="fade-left"
+                data-aos-duration="400"
               >
                 <h1
                   className="About-Head-Big"
@@ -65,11 +69,19 @@ function AboutPage() {
                 <AboutCard />
               </Col>
             </Row>
-            <h1 className="project-heading">
+            <h1
+              className="project-heading"
+              data-aos="zoom-out"
+              data-aos-duration="500"
+            >
               Professional <strong className="purple">Skillset </strong>
             </h1>
             <Techstack />
-            <h1 className="project-heading">
+            <h1
+              className="project-heading"
+              data-aos="zoom-out"
+              data-aos-duration="500"
+            >
               <strong className="purple">Tools</strong> I use
             </h1>
             <Toolstack />

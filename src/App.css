@@ -104,6 +104,7 @@ button:focus {
   flex-direction: column !important;
   text-align: center;
   min-height: 100vh !important;
+  overflow: hidden !important;
 }
 #tsparticles {
   position: fixed !important;

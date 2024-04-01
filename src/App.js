@@ -9,8 +9,19 @@ import ProjectPage from "./Pages/ProjectPage";
 import PreLoader from "./Components/PreLoader";
 import ScrollToTop from "./Components/ScrollToTop";
 
+import "aos/dist/aos.css";
+import Aos from "aos";
+
 function App() {
   const [Load, UpdateLoad] = useState(true);
+  useEffect(() => {
+    Aos.init({
+      // once: true,
+      // disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {

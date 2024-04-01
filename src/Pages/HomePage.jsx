@@ -30,7 +30,12 @@ const HomePage = () => {
             <ParticleBackground />
             <Container className="home-content">
               <Row>
-                <Col md={7} className="home-header">
+                <Col
+                  md={7}
+                  className="home-header"
+                  data-aos="fade-right"
+                  data-aos-duration="400"
+                >
                   <h1 style={{ paddingBottom: 15 }} className="heading">
                     Hi There!{" "}
                     <span className="wave" role="img" aria-labelledby="wave">
@@ -52,6 +57,8 @@ const HomePage = () => {
                   md={5}
                   style={{ paddingBottom: 20 }}
                   className="home-img-comp"
+                  data-aos="fade-left"
+                  data-aos-duration="400"
                 >
                   <img
                     src={HomePic}
@@ -66,7 +73,11 @@ const HomePage = () => {
           <Container fluid className="home-about-section" id="about">
             <Container>
               <Row>
-                <Col md={8} className="home-about-description">
+                <Col
+                  md={8}
+                  className="home-about-description"
+                  data-aos="fade-right"
+                >
                   <h1 style={{ fontSize: "2.6em" }} className="home-introduce">
                     LET ME <span className="purple"> INTRODUCE </span> MYSELF
                   </h1>
@@ -101,13 +112,23 @@ const HomePage = () => {
                   </p>
                 </Col>
                 <Col md={4} className="myAvtar">
-                  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={20}>
-                    <img src={Gow} className="img-fluid" alt="avatar" />
+                  <Tilt tiltMaxAngleX={10} tiltMaxAngleY={17}>
+                    <img
+                      src={Gow}
+                      className="img-fluid"
+                      alt="avatar"
+                      data-aos="fade-left"
+                    />
                   </Tilt>
                 </Col>
               </Row>
               <Row>
-                <Col md={12} className="home-about-social">
+                <Col
+                  md={12}
+                  className="home-about-social"
+                  data-aos="fade-up"
+                  data-aos-duration="400"
+                >
                   <h1>FIND ME ON</h1>
                   <p>
                     Feel free to <span className="purple">Connect </span>with me
