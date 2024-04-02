@@ -67,7 +67,7 @@ function ResumeNew() {
             href={resume}
             target="_blank"
             style={{ maxWidth: "250px" }}
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-duration="600"
           >
             <TbFileDownload />

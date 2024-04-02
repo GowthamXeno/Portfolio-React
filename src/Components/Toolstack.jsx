@@ -7,6 +7,7 @@ import {
   SiWindows11,
   SiGithub,
   SiCanva,
+  SiMicrosoftedge,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -22,6 +23,28 @@ function Toolstack() {
       >
         <SiPostman />
         <p>Postman</p>
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons"
+        data-aos="flip-up"
+        data-aos-offset="80"
+        data-aos-duration="600"
+      >
+        <SiWindows11 />
+        <p>Window OS</p>
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons"
+        data-aos="flip-up"
+        data-aos-offset="80"
+        data-aos-duration="600"
+      >
+        <SiMicrosoftedge />
+        <p>Microsoft Edge</p>
       </Col>
       <Col
         xs={4}
