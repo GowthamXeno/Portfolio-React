@@ -37,7 +37,7 @@ function ResumeNew() {
         </Row>
         <Row
           style={{ justifyContent: "center", position: "relative" }}
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-duration="400"
         >
           <Button
@@ -67,7 +67,7 @@ function ResumeNew() {
             href={resume}
             target="_blank"
             style={{ maxWidth: "250px" }}
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-duration="600"
           >
             <TbFileDownload />
