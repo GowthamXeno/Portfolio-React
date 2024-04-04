@@ -6,9 +6,9 @@ function TypewriteComp() {
     <div className="TypeWriting">
       <Typewriter
         words={[
-          "Web Developer",
-          "MERN Stack Developer",
           "Engineer",
+          "Web Developer",
+          "Programming Enthusiast",
           "Full Stack Developer",
         ]}
         loop={true}
