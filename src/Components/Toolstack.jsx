@@ -8,6 +8,7 @@ import {
   SiGithub,
   SiCanva,
   SiMicrosoftedge,
+  SiRender
 } from "react-icons/si";
 
 function Toolstack() {
@@ -89,6 +90,17 @@ function Toolstack() {
       >
         <SiVercel />
         <p>Vercel</p>
+      </Col>
+      <Col
+        xs={4}
+        md={2}
+        className="tech-icons"
+        data-aos="flip-up"
+        data-aos-offset="80"
+        data-aos-duration="600"
+      >
+        <SiRender />
+        <p>Render</p>
       </Col>
     </Row>
   );
