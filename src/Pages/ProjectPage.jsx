@@ -17,6 +17,7 @@ function ProjectPage() {
         loadImg(Bookmyshow),
         loadImg(Bookrecord),
         loadImg(portfolio),
+        loadImg(MernAuthApp),
       ]);
       UpdateLoad(false);
     };
