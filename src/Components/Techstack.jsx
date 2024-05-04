@@ -11,7 +11,7 @@ import {
   DiHtml5,
   DiCss3,
 } from "react-icons/di";
-import { SiExpress, SiNpm, SiTailwindcss, SiBootstrap } from "react-icons/si";
+import { SiExpress, SiNpm, SiTailwindcss, SiBootstrap, SiPython } from "react-icons/si";
 const Techstack = () => {
   return (
     <>
@@ -136,6 +136,17 @@ const Techstack = () => {
         >
           <SiNpm />
           <p>Npm</p>
+        </Col>
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="600"
+        >
+          <SiPython />
+          <p>Python</p>
         </Col>
         <Col
           xs={4}
