@@ -16,7 +16,7 @@ function TypewriteComp() {
         cursorStyle=" /"
         typeSpeed={50}
         deleteSpeed={40}
-        delaySpeed={1000}
+        delaySpeed={2000}
       />
     </div>
   );
