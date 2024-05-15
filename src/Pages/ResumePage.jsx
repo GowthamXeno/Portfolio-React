@@ -20,6 +20,7 @@ function ResumeNew() {
       setImageLoaded(false);
     };
   }, []);
+  
 
   return (
     <div>
@@ -45,6 +46,7 @@ function ResumeNew() {
             href={resume}
             target="_blank"
             style={{ maxWidth: "250px" }}
+            download={resume}
           >
             <TbFileDownload />
             &nbsp;Download Résumé
@@ -69,6 +71,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
             data-aos="fade-up"
             data-aos-duration="600"
+            download={resume}
           >
             <TbFileDownload />
             &nbsp;Download Résumé
