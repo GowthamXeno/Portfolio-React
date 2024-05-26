@@ -11,6 +11,7 @@ import {
   DiHtml5,
   DiCss3,
 } from "react-icons/di";
+import { TbSql } from "react-icons/tb";
 import { SiExpress, SiNpm, SiTailwindcss, SiBootstrap, SiPython } from "react-icons/si";
 const Techstack = () => {
   return (
@@ -81,6 +82,17 @@ const Techstack = () => {
         >
           <DiJava />
           <p>Java</p>
+        </Col>
+        <Col
+          xs={4}
+          md={2}
+          className="tech-icons"
+          data-aos="flip-up"
+          data-aos-offset="80"
+          data-aos-duration="600"
+        >
+          <TbSql />
+          <p>SQL</p>
         </Col>
         <Col
           xs={4}
